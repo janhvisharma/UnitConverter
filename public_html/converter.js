@@ -80,7 +80,7 @@ var poundToKgs = function () {
 };
 var kgsToPound = function () {
     var kgs = parseInt(document.getElementById("txtbox").value);
-    if (pound !== "" && !isNaN(pound)) {
+    if (kgs !== "" && !isNaN(kgs)) {
         var pound = kgs * 2.205;
         document.getElementById("result").innerHTML = pound.toFixed(2) + " lb";
     } else {
