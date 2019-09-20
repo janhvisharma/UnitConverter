@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Janhvi Sharma
+-->
+<html>
+    <head>
+        <title>Unit Convertor </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+    <body>
+        <div id="convertor">
+            <h1>Unit Convertor <br/>
+                Janhvi Sharma<br/> </h1>
+            <hr>
+            <input type="text" id="txtbox" autofocus/> <br/>
+            <div class="calc-buttons">
+                <input type="button" class="button1" value="Celsius &rarr; Fahrenheit" onclick="celsToFahren()"/>
+                <input type="button" class="button1" value="Fahrenheit &rarr; Celsius" onclick="fahrenToCels()"/>
+                <input type="button" class="button1" value="Feet &rarr; Meters" onclick="feetToMet()"/>
+                <input type="button" class="button1" value="Meters &rarr; Feet" onclick="metToFeet()"/>
+                <input type="button" class="button1" value="Inches &rarr; Centimeters" onclick="inchToCenti()"/>
+                <input type="button" class="button1" value="Centimeters &rarr; Inches" onclick="centiToInch()"/>
+                <input type="button" class="button1" value="Pounds &rarr; Kilograms" onclick="poundToKgs()"/>
+                <input type="button" class="button1" value="Kilograms &rarr; Pounds" onclick="kgsToPound()"/>
+            </div>
+            <p id="result"></p><br/>
+            <input type="button" id="clear" value="CLEAR" onclick="clearTxt()"/><br/>
+        </div>
+        <script type="text/javascript" src="convertor.js"></script>
+    </body>
+</html>
